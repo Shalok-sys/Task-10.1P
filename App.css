@@ -1,0 +1,139 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: #f0f0f0;
+}
+.header .prompt{
+  height: 30px;
+}
+
+.header img{
+  margin-right: 5px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.featured-articles h2, .featured-tutorials h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.articles, .tutorials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article, .tutorial {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.article-image, .tutorial-image {
+  height: 150px;
+  background-color: #ddd;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #32776b;
+  color: white;
+  padding: 20px;
+}
+
+.footer-obj {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-obj h4, .copyright p{
+  margin-bottom: 10px;
+  margin: 25px;
+  font-weight: bold;
+  font-size: larger;
+  color: #1f2124;
+}
+.footer-obj li{
+  list-style: none;
+  padding: 5px;
+}
+
+.newsletter {
+  background-color: rgb(195, 195, 195);
+  width: 50%;
+  margin-bottom: 5px;
+  text-align: center;
+  margin: 10px auto 10px;
+  border-radius: 5px;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #47494c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #1f2124;
+}
+
+.copyright{
+  text-align: center;
+}
+.copyright ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+.social li{
+  display: inline-block;
+  text-align: right;
+}
+
+.ui-search{
+  margin: auto;
+  text-align: center;
+  height: auto;
+  width: 70%;
+}
+.ui-search input{
+  margin: auto;
+  text-align: center;
+  height: auto;
+  width: 70%;
+}
+
