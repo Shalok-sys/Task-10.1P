@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(cors());  // Enable CORS for requests from the React frontend
 
 // Set up Mailgun API
-const mg = mailgun({ apiKey: '680c0304d05ef14c79a312f55ac44eb8-1b5736a5-887d0775', domain: 'sandboxfed66327f2104bb3b44e0627b232717a.mailgun.org' });
+const mg = mailgun({ apiKey: '', domain: '' });
 
 // Function to send a welcome email
 const sendWelcomeEmail = (email) => {
